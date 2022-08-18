@@ -132,14 +132,16 @@ img {
     /* height: 600px; */
     background-color: var(--bg-dark);
     text-align: center;
-    /* padding-bottom: 200px; */
     padding: 200px 452px;
     border: 1px solid var(--border-line);
+    
 }
 .hero-title {
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     width: 700px;
-    height: 120px;
+    /* height: 120px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -155,7 +157,6 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: var(--accent-color-blue);
-    
     
     font-family: inherit;
     font-weight: 700;
@@ -248,12 +249,6 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
-/* .team-item:not(:nth-last-child(-n+3)) {
-    margin-bottom: 30px;
-} */
-/* .team-img {
-    
-} */
 .team .text-wrapper {
     padding: 30px 60px;
 }
@@ -278,24 +273,20 @@ img {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--bg-dark);
-    
+    background-color: var(--bg-dark);  
 }
-
 .logo-wrapper {
     margin-bottom: 20px;
 }
 .footer .part-logo {
     color: var(--accent-color-white);
 }
-
 .address-link {
     color: var(--address-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;  
 }
 .address .link:hover,
 .address .link:focus {
@@ -318,19 +309,15 @@ img {
     justify-content: center;
     margin-bottom: 50px;
 }
-/* .gallery-link {
-    padding: 6px, 20px;
-} */
 .gallery-link:not(:last-child) {
     margin-right: 8px;
 }
 .gallery-button {
     display: inline-block;
-    padding: 6px, 20px;
-    /* padding-top: 6px;
-    padding-right: 20px;
-    padding-bottom: 6px;
-    padding-left: 20px; */
+    padding: 6px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
 
     font-family: inherit;
     font-weight: 500;
@@ -340,29 +327,8 @@ img {
     text-align: center;
     color: inherit;
     background-color: var(--bg-light);
-    cursor: pointer;
-    border-radius: 4px;
-    border: transparent;
+    
 }
-/* display: inline-block;
-    text-align: center;
-    padding: 10px 22px;
-    min-width: 216px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: var(--accent-color-blue);
-    
-    
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--accent-color-white);
-    background-color: var(--accent-color-blue);
-    cursor:pointer;
-} */
 .gallery-button:hover,
 .gallery-button:focus {
     color: var(--accent-color-white);
