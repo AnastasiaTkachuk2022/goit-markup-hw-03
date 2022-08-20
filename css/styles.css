@@ -29,8 +29,8 @@ ul,ol {
 }
 img {
     display:block;
-    max-width: 100%, 
-    height: auto.
+    max-width: 100%; 
+    height: auto;
 }
 .list {
     list-style: none;
@@ -53,29 +53,27 @@ img {
 /* =======END COMPONENTS=======*/
 /* =======START HEADER======= */
 .header {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 24px;
+    padding-bottom: 25px; */
     border-bottom: 1px solid var(--border-line);
 }
 .header-container {
     display: flex;
     align-items: center;
-    
-    justify-content: space-between;
-    
 }
 .nav {
     display: flex;
     align-items: center; 
 }
 .logo {
-    margin-right: 84px;
+    margin-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color-blue);
-    padding: 8px 12px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .part-logo {
     color: var(--secondary-black-color);
@@ -83,6 +81,7 @@ img {
 .site-nav {
     display: flex;
     align-items: center;
+
 }
 
 .site-nav .link.current {
@@ -100,7 +99,8 @@ img {
     color: var(--accent-color-blue);
 }
 .nav-link {
-    padding: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .nav-list:not(:last-child) {
     margin-right: 50px;
@@ -109,7 +109,7 @@ img {
 .nav-contact {
     display: flex;
     align-items: center;
-    
+    margin-left: auto;
 }
 .nav-contact-item:not(:last-child) {
     margin-right: 50px;
@@ -121,7 +121,8 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    padding: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .nav-contact .link:hover,
 .nav-contact .link:focus {
@@ -132,7 +133,7 @@ img {
 .hero {
     background-color: var(--bg-dark);
     text-align: center;
-    padding: 200px 452px; 
+    padding: 200px 0; 
 }
 .hero-title {
     margin-bottom: 30px;
@@ -204,6 +205,9 @@ img {
     color: var(--text-color);
 }
 /* =======END FEAUTURES======= */
+.about {
+    padding-top: 0;
+}
 .about-title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -286,7 +290,6 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;  
-    padding: 8px 15px;
 }
 .address .link:hover,
 .address .link:focus {
@@ -345,13 +348,17 @@ img {
     margin-left: 30px;
 }
 .portfolio .text-wrapper {
-    padding: 20px 20px;
-    border: 1px solid #EEEEEE;
+    padding: 20px 54px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    
 }
 .portfolio-title {
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 .portfolio-text {
     font-weight: 400;
